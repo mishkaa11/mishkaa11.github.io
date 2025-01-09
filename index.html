@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Михаил</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">МАШТАКОВ МИХАИЛ</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="http://t.me/mishkaa12" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:mashtakovma@yandex.ru">mashtakovma@yandex.ru</a>
+        </div>
+        <div class="entry">
+          <a href="https://wa.me/79063185217" target="_blank">whatsapp</a>
+        </div>
+        <div class="entry">
+          <a href="https://github.com/mishkaa11" target="_blank">git</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">часто задаваемые вопросы</div>
+      <div class="block1">Какими интсрументами ты пользуешься?</div>
+      <div class="block2">Для тестирования клиента обычно использую DevTools, при проверке Бекэнда - Postman, а для мобилок - Charles. Чек-листы пишу в Miro, а тест-кейсы - в Qase.io. Есть опыт работы с SQL.</div>
+     <div class="block1">Как часто ты проходишь обучения?</div>
+      <div class="block2">Работа в IT подразумевает постоянное обучение, и я, как человек это понимающий, регулярно прохожу курсы ( например на Stepik), читаю статьи на Hurb, а так же, в свободное время, стараюсь освоить Python.</div>
+      <div class="block1">Почему ты пришел в IT?</div>
+      <div class="block2">IT сфера многогранна и безгранична. Здесь ты можешь реализовываться во многих направлениях, при этом не привязать себя к одному месту и продолжать смотреть мир своими глазами, получая за это хорошие деньги.</div>
+      <div class="block1">Есть ли примеры твоих работ?</div>
+      <div class="block2">здесь будут ссылки на примеры</div>
+    </div>
+  </body>
+</html>
